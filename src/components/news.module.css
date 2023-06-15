@@ -1,0 +1,40 @@
+.box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 700px;
+    background-color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: scroll;
+}
+.backdrop{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.3);
+}
+
+.container{
+    width: 500px;
+    background-color: rgba(249, 210, 241, 0.603);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+}
+
+.header{
+    text-align: center;
+}
+.head{
+    text-align: end;
+}
+
+.achor{
+  text-align: end;
+}

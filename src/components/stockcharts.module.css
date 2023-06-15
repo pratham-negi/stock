@@ -1,0 +1,12 @@
+.frame{
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 700px;
+    border:none;
+    margin-left: -40px;
+}
+
+.container{
+    max-width: 100vw;
+    overflow: hidden;
+}

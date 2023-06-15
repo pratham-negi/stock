@@ -1,0 +1,112 @@
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    background-image: url("../loginBack.jpg");
+}
+
+.view{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    width: 30VW;
+    height: 65VH;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+}
+
+
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-25%,-50%);
+    background-color: white;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 65VH;
+    transition: all .3s ease-in-out;
+    
+}
+
+
+
+
+
+form{
+    padding: 35px;
+    display: grid;
+    grid-template-rows: 1fr .8fr .8fr .8fr .5fr;
+    
+}
+input{
+    margin: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: medium;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+
+
+h1{
+    justify-self: center;
+    padding: 10PX;
+    border-bottom: black 2PX solid;
+    
+
+}
+
+span{
+    justify-self: center;
+    padding-bottom: 10px;
+}
+
+
+.button{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    justify-self: center;
+    padding-left: 6px;
+}
+
+.button:hover{
+    background-color: #f08854;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: -10px;
+    color: white;
+}
+
+.button:focus{
+    background-color: #50D890;
+    color: black;
+    font-weight: bolder;
+}
+
+input:hover{
+ border: #f08854 3px solid;
+}
+
+input:focus{
+    outline : none;
+    border: #50D890 3px solid;
+}
+
+
+#mover{
+   transform: translate(-75%,-50%); 
+}
+
+#not{
+    display: none;
+}

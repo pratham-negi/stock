@@ -1,0 +1,113 @@
+.form{
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+    padding: 20px;
+    height: 40px;
+    
+
+}
+select{
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: #15afa2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 3px;
+
+}
+
+button{
+    background-color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.h1{border: none;}
+
+
+.menu{
+    display: grid;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.news{
+    position: relative;
+    display: flex;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #15afa2;
+    border-radius: 50%;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.risk{position: relative;
+    display: flex;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #15afa2;
+    border-radius: 50%;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    
+    margin-bottom: 5px;
+    color: #fff;}
+
+.senti{position: relative;
+    display: flex;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #15afa2;
+    border-radius: 50%;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    
+    margin-bottom: 5px;
+    color: #fff;}
+
+.about{position: relative;
+    display: flex;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #15afa2;
+    border-radius: 50%;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    
+    margin-bottom: 5px;
+    color: #fff;}
+
+.a{
+text-decoration: none;
+color: #fff;
+}
+
+
